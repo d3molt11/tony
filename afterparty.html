@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<body>
+<header>
+<h1 id="title">Review Tony's Services</h1>
+<p id="description">Tony is one of the most talented individual of AAVN</p> 
+</header>
+<main>
+<form id="survey-form">
+ <br><label for="name" id="name-label">Name</label>
+  <input required type="text" id="name" name="name" placeholder="Enter Your Name"/>
+<br><label for="email" id="email-label">Email</label>
+  <input required type="email" id="email" name="email" placeholder="Enter Your Email"/>
+<br><label for="age"id="number-label">Age (Optional)</label>
+  <input placeholder="80" min="18" max="80" type="number" id="number" name="age"/>
+  <br><br><label for="role">Which option best describes your current roles?</label>
+  <select id="dropdown" name="role" placeholder="placeholder">
+    <option selected disabled value="">Select Current Role</option>
+    <option value="student">Student</option>
+    <option value="full-time-job">Full Time Job</option>
+    <option value="full-time-learner">Full Time Learner</option>
+    <option value="prefer-not-to-say">Prefer Not To Say</option>
+    <option value="other">Other</option>
+  </select>
+    <br><br><label for="recommended">Would you recommended Tony to a friend?</label>
+    <br><input checked type="radio" name="recommended" id="definitely" value="def"/>Definitely
+    <input type="radio" name="recommended" id="maybe" value="maybe">Maybe
+    <input type="radio" name="recommended" id="not-sure" value="not-sure"/>Not Sure
+    <br><br><label for="favfeature">What is  your favourite feature of Tony?</label>
+    <br><select id="favfeature" name="favfeature">
+      <option value="" disabled selected>Select an option</option>
+      <option value="balls">Testicles</option>
+      <option value="chest">Breast</option>
+      <option value="butt">Ass</option>
+      <option value="face"">Face</option>
+    </select>
+    
+  <br><br> <label for="lovers">What would you like to see improved?(Check all that apply)</label>
+    <br><input type="checkbox" name="lovers" id="lovers" value="tounging"/>Tounging
+    <input type="checkbox" name="lovers" id="lovers" value="frenchkiss"/>French Kiss
+    <input type="checkbox" name="lovers" id="lovers" value="pubichair"/>Pubic Hair
+    <input type="checkbox" name="lovers" value="butthair/> Butt Hair
+    <input type="checkbox" name="lovers" id="lovers" value="sexual-abilities"/>Sexual Abilities
+
+<br><br><label for="more">Any comments or suggestions?</label>
+<textarea name="more" id="more" placeholder="Enter your comment here..."></textarea>
+<br><button id="submit" size="90" type="submit">Submit</button>
+</form>
+<main>
+</body>
+</html>
