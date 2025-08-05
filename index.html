@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <title>Tony's Organization</title>
+</head>
+<body>
+<header> 
+    <center><h1>Tony's Intimate Partner Sign Up Form</h1></center>
+    <center><p1>Tony is a happy male who looking for a mate</p1></center>
+        <nav>
+            <ul>
+               <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<form>
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="name">Name (required):</label>
+    <input type="text" id="name" name="name" placeholder="Nguyen Huu Truong Phuc" required/><br/>
+    <label for="age">Age 18 to 80 (required):</label>
+    <input type="number" id="age" name="age" min="18" max="80" placeholder="18" required/><br/>
+    <label for="socialmedia">Instagram (required):</label>
+    <input type="text" id="socialmedia" name="social media" placeholder="@jimmynguyen" required><br/>
+    <label for="phone-number">Phone Number (required):</label> 
+    <input type="tel" id="phone-number" name="phone-number" placeholder="+84 111111111" required><br/>
+    <label for="sodo1">Số đo vòng 1</label>
+    <input type="number" id="sodo1" name="so1" placeholder="1000" min="1000" required />
+    <label for="sodo2">Số đo 2</label>
+    <input type="number" id="sodo2" name="so2" placeholder="1000" min="1000" required />
+    <label for="sodo3">Số đo vòng 3</label>
+    <input type="number" id="sodo3" name="so3" placeholder="1000" min="1000" required />
+</fieldset>
+<fieldset>
+    <legend>Style</legend>
+    <label for="gore-emo">Are you a Gothic or Emo</label><br/>
+    <input type="radio" id="gore-emo" name="gore-emo" checked required>Emo
+    <input type="radio" id="gore-emo" name="gore-emo" required>Gothic
+</fieldset>
+<fieldset>
+        <legend>Consent</legend>
+        <label for="consent">Are you willing for Tony to...</label><br/>
+        <input checked type="radio" id="consent" name="consent" value="yes"/>Yes
+        <input type="radio" id="consent" name="consent" value="no"/>No
+</fieldset>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
